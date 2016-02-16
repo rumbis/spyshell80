@@ -1,0 +1,5 @@
+When hackers get into a server, they often modify files to inject malicious code, install PHP backdoor scripts, or modify original file so that it will become a backdoor for the attacker. It is important to make sure your webserver is clean from these backdoors or also known as web shell.
+
+Spyshell:80 is a PHP script that uses signature to detect suspicious functions as well as  obfuscated and encrypted content within text/script files. The intended purpose of Spyshell:80 is to aid in the detection of hidden web shell code on the webserver. The development focus of Spyshell:80 was creating a tool that could be used by the webmaster especially those who run their website on shared hosting and do not have ssh/telnet access to the server, and help them to detect for potentially web shell code from a web interface.
+
+Spyshell:80 recursively scans through the file system from a base directory and will rank files based on the match regular expression. It also presents the result in easy-to-understand and clean web interface.
